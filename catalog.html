@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Nerd's - дизайн-студия</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:500&subset=latin,cyrillic,latin-ext,cyrillic-ext">
+	<link rel="stylesheet" href="css/symbols-nerds.css">
+</head>
+<body>
+	<header class="main-header">
+		<div class="container">
+			<div class="header-menu-wrapper clearfix">
+				<div class="main-logo">
+					<a href="index.html"><img src="img/logo-menu-139x56.png" alt="Nerd's" width="139" height="56"></a>
+				</div>
+				<div class="navigation-wrapper clearfix">
+					<nav class="main-navigation">
+						<ul>
+							<li><a href="index.html">Студия</a></li>
+							<li><a href="#">Клиенты</a></li>
+							<li><a href="#">Магазин</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</nav>
+					<div class="user-basket">
+						<a class="icon-basket" href="#">Корзина</a>
+					</div>
+				</div>
+			</div>
+			<h1>Добро пожаловать в магазин<br> готовых макетов</h1>
+		</div>
+	</header>
+
+	<main class="container">
+		<div class="catalog-content clearfix">
+			<div class="catalog-left-column">
+				<form class="search-site-form" action="https://echo.htmlacademy.ru" method="post">
+					<section class="search-by-price">
+						<h2>Стоимость:</h2>
+						<div class="price-slider-block">
+							<div class="price-slider"></div>
+						</div>
+						<div class="price-from-to">
+							<span>От</span>
+							<span class="price-from">1000000</span>
+							<span>До</span>
+							<span class="price-to">15000</span>
+						</div>
+					</section>
+					<section class="search-by-grid">
+						<h2>Сетка:</h2>
+						<label>
+							<input type="radio" name="grid" value="adaptive">
+							<span class="icon-circle-dot"></span>
+							<span class="icon-circle"></span>
+							Адаптивная
+						</label>
+						<label>
+							<input type="radio" name="grid" value="fixed">
+							<span class="icon-circle-dot"></span>
+							<span class="icon-circle"></span>
+							Фиксированная
+						</label>
+						<label>
+							<input type="radio" name="grid" value="rubber">
+							<span class="icon-circle-dot"></span>
+							<span class="icon-circle"></span>
+							Резиновая
+						</label>
+					</section>
+					<section class="search-by-features">
+						<h2>Особенности:</h2>
+						<label>
+							<input type="checkbox" name="features" value="slider">
+							<span class="icon-check-on"></span>
+							<span class="icon-check-off"></span>
+							Слайдер
+						</label>
+						<label>
+							<input type="checkbox" name="features" value="benefits-unit">
+							<span class="icon-check-on"></span>
+							<span class="icon-check-off"></span>
+							Блок преимуществ
+						</label>
+						<label>
+							<input type="checkbox" name="features" value="news">
+							<span class="icon-check-on"></span>
+							<span class="icon-check-off"></span>
+							Новости
+						</label>
+						<label>
+							<input type="checkbox" name="features" value="gallery">
+							<span class="icon-check-on"></span>
+							<span class="icon-check-off"></span>
+							Галерея
+						</label>
+						<label>
+							<input type="checkbox" name="features" value="basket">
+							<span class="icon-check-on"></span>
+							<span class="icon-check-off"></span>
+							Корзина
+						</label>
+					</section>
+					<button class="btn" type="submit">Показать</button>
+				</form>
+			</div>
+			<div class="catalog-right-column">
+				<section class="sort-by">
+					<div class="clearfix">
+						<div class="sort-left">
+							<span>Сортировать:</span>
+							<button class="sort-by-price" type="button">По цене</button>
+							<button class="sort-by-type" type="button">По типу</button>
+							<button class="sort-by-functionality" type="button">По функционалу</button>
+						</div>
+						<div class="sort-right">
+							<button class="icon-down-dir" type="button"></button>
+							<button class="icon-up-dir" type="button"></button>
+						</div>
+					</div>
+				</section>
+				<section class="sites-catalog">
+					<article class="website">
+						<div class="header-website"></div>
+						<img src="img/site-aviator-240x240.jpg" alt="Aviator">
+						<div class="website-info">
+							<h3>Aviator</h3>
+							<p>
+								Одностраничный макет<br> с авторским дизайном
+							</p>
+							<button class="btn-web" type="button">8000 Р.</button>
+						</div>
+					</article>
+					<article class="website">
+						<div class="header-website"></div>
+						<img src="img/site-sunset-240x240.jpg" alt="Sunset">
+						<div class="website-info">
+							<h3>Sunset</h3>
+							<p>
+								Интернет-магазин<br> с личным кабинетом
+							</p>
+							<button class="btn-web" type="button">10000 Р.</button>
+						</div>
+					</article>
+					<article class="website">
+						<div class="header-website"></div>
+						<img src="img/site-forte-240x240.jpg" alt="Forte">
+						<div class="website-info">
+							<h3>Forte</h3>
+							<p>
+								Отличный макет<br> для личного блога
+							</p>
+							<button class="btn-web" type="button">5000 Р.</button>
+						</div>
+					</article>
+					<article class="website">
+						<div class="header-website"></div>
+						<img src="img/site-marquee-240x240.jpg" alt="Marquee">
+						<div class="website-info">
+							<h3>Modern organic thai</h3>
+							<p>
+								Сайт для ресторана быстрого питания
+							</p>
+							<button class="btn-web" type="button">12000 Р.</button>
+						</div>
+					</article>
+					<article class="website">
+						<div class="header-website"></div>
+						<img src="img/site-avenue-239x240.jpg" alt="Avenue">
+						<div class="website-info">
+							<h3>Avenue</h3>
+							<p>
+								Макет для блога<br> о путешествиях
+							</p>
+							<button class="btn-web" type="button">8000 Р.</button>
+						</div>
+					</article>
+					<article class="website">
+						<div class="header-website"></div>
+						<img src="img/site-dovetail-239x240.jpg" alt="Dovetail">
+						<div class="website-info">
+							<h3>Dovetail</h3>
+							<p>
+								Интернет-магазин<br> с галереей товаров
+							</p>
+							<button class="btn-web" type="button">14000 Р.</button>
+						</div>
+					</article>
+				</section>
+				<section class="pagination">
+					<a class="btn-pagination checked" href="#">1</a>
+					<a class="btn-pagination" href="#">2</a>
+					<a class="btn-pagination" href="#">3</a>
+					<a class="btn-pagination" href="#">Следующая</a>
+				</section>
+			</div>
+		</div>
+	</main>
+
+	<footer class="main-footer">
+		<section class="footer-contacts">
+			<div class="container clearfix">
+				<article class="contact-info">
+					<h1>NЁRDS design studio</h1>
+					<p>
+						191186, Санкт-Петербург,<br>
+						ул. Б. Конюшенная, д. 19/8
+					</p>
+					<p>
+						тел. +7 (812) 275-75-75
+					</p>
+					<button class="btn write-us" type="button">Напишите нам</button>
+				</article>
+				<img src="img/map-pointer-231x190.png" alt="Nerd's" width="231" height="190">
+			</div>
+		</section>
+		<div class="container clearfix">
+			<section class="footer-social">
+					<a class="social-btn icon-vk" href="#">Вконтакте</a>
+					<a class="social-btn icon-facebook" href="#">Фейсбук</a>
+					<a class="social-btn icon-instagramm" href="#">Инстаграм</a>
+			</section>
+			<div class="footer-friendship">
+				<p class="title">
+					<b>Давайте дружить, это выгодно!</b>
+				</p>
+				<p>
+					Скидка 10% для друзей из социальных сетей.
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<div class="modal-content">
+		<button class="modal-content-close" type="button" title="Закрыть">Закрыть</button>
+		<form class="write-us-form" action="index.html" method="post">
+			<div class="wrapper-name-e-mail clearfix">
+				<div class="name">
+					<label>
+						<span>Ваше имя:</span>
+						<input type="text" name="name" placeholder="Представьтесь, пожалуйста">
+					</label>
+				</div>
+				<div class="e-mail">
+					<label>
+						<span>Ваш e-mail:</span>
+						<input type="text" name="e-mail" placeholder="Для отправки ответа">
+					</label>
+				</div>
+			</div>
+			<label>
+				<span>Текст письма:</span>
+				<textarea name="massege" placeholder="В свободной форме"></textarea>
+			</label>
+			<button class="btn" type="submit">Отправить</button>
+		</form>
+	</div>
+
+	<div class="modal-overlay"></div>
+	<script src="js/popup.js"></script>
+	<script src="http://localhost:35729/livereload.js"></script>
+</body>
+</html>
