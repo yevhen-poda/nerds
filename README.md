@@ -1,1 +1,2 @@
 # nerds
+Static website
